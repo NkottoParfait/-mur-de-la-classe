@@ -18,7 +18,13 @@
       <p class="eyebrow">Terre d'Afrique centrale</p>
       <h1>Les villes du <span>Cameroun</span></h1>
       <p class="intro">Explorez les villes et localités qui font la richesse des dix régions du Cameroun.</p>
-      <a class="discover" href="#explorer">Explorer les villes <span>↓</span></a>
+      <div class="hero-actions">
+        <a class="discover" href="#explorer">Explorer les villes <span>↓</span></a>
+        <div class="hero-stats" aria-label="Statistiques du Cameroun">
+          <div><strong>10</strong><span>régions</span></div>
+          <div><strong>70+</strong><span>villes</span></div>
+        </div>
+      </div>
     </div>
     <div class="hero-orb orb-one"></div>
     <div class="hero-orb orb-two"></div>
@@ -55,9 +61,23 @@
     <p id="emptyState" class="empty-state" hidden>Aucune ville ne correspond à votre recherche.</p>
   </main>
 
+  <div id="cityModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-panel">
+      <header class="modal-header">
+        <div>
+          <p class="eyebrow dark">Informations locales</p>
+          <h2 id="modalTitle">Ville</h2>
+        </div>
+        <button id="modalClose" class="modal-close" type="button" aria-label="Fermer">×</button>
+      </header>
+      <div id="modalContent" class="modal-content"></div>
+    </div>
+  </div>
+
   <footer>
     <p>🇨🇲 Fait avec passion pour le Cameroun.</p>
     <span>Une sélection de villes et localités — liste non exhaustive.</span>
+    <p>MODIFIER PAR :NKOTTO NYANGONO PARFAIT LOIC</p>
   </footer>
 </body>
 </html>

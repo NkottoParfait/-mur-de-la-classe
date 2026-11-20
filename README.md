@@ -14,7 +14,7 @@ régions du pays.
 
 ## Fonctionnalités
 
--   Affichage d'une sélection de villes et localités du Cameroun.
+-   Affichage de plus de 70 villes et localités du Cameroun.
 -   Organisation des villes par région administrative.
 -   Recherche dynamique par nom de ville.
 -   Filtrage par région.
@@ -134,4 +134,4 @@ la réutilisation et la modification du code.
 
 ------------------------------------------------------------------------
 
-Développé avec ❤️ pour mettre en valeur les villes du Cameroun. 🇨🇲
+🇨MODIFIER PAR :NKOTTO NYANGONO PARFAIT LOIC
